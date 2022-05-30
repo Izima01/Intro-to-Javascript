@@ -84,7 +84,7 @@ let time = 2.5;
 let interest;
 
 interest = principal * rate * time
-console.log("9. " + interest)
+console.log("9. Interest = " + interest)
 
 // Number 10
 console.log(`10. 10 % 4 = ${10 % 4}`)
@@ -105,8 +105,9 @@ console.log("Number 11")
     let meritHigherBMI1 = meritBMI1 > nutjobBMI1;
 
     console.log("Test 1")
-    console.log(meritBMI1)
-    console.log(nutjobBMI1)
+    console.log("Merit's BMI is " + meritBMI1 + " kilogram per meter squared")
+    console.log("Nutjob's BMI is " + nutjobBMI1 + " kilogram per meter squared")
+    console.log("Is Merit's higher than Nutjob's BMI: " + meritHigherBMI1)
 
 // Test 2
     let meritHeight2 = 1.76;
@@ -122,5 +123,6 @@ console.log("Number 11")
     let meritHigherBMI2 = meritBMI2 > nutjobBMI2;
 
     console.log("Test 2")
-    console.log(meritBMI2)
-    console.log(nutjobBMI2)
+    console.log("Merit's BMI is " + meritBMI2 + " kilogram per meter squared")
+    console.log("Nutjob's BMI is " + nutjobBMI2 + " kilogram per meter squared")
+    console.log("Is Merit's higher than Nutjob's BMI: " + meritHigherBMI2)
