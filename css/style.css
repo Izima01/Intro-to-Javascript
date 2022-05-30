@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6% auto 3%;
+    background: url(../img/Ares.jpg);
+}
+
+.card {
+    background-color: #fab057;;
+    width: 50%;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.lead {
+    margin: 0 auto;
+    width: 30%;
+    background: url(../img/Ares2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 3%;
+    border-radius: 10px;
+    color: #fab057;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 5%;
+    color: white;
+    text-decoration: underline white;
+    text-align: left;
+}
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2% 0 5%;
+    width: 100%;
+}
+
+.member {
+    width: 28%;
+    background: url(../img/Ares2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0.6%;
+    padding: 3% 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: #fab057;
+    font-size: 22px;
+    padding-bottom: 2%;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #d32831;
+    text-shadow: 4px 4px 1px black;
+}
