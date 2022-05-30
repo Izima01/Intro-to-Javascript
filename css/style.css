@@ -10,7 +10,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 6% auto 3%;
     background: url(../img/Ares.jpg);
 }
 
@@ -19,6 +18,7 @@ body {
     width: 50%;
     padding: 1%;
     border-radius: 20px;
+    margin: 6% auto 3%;
 }
 
 .lead {
@@ -72,4 +72,23 @@ h5 {
     font-weight: 800;
     color: #d32831;
     text-shadow: 4px 4px 1px black;
+}
+
+@media (max-width: 426px) {
+    .card {
+        width: 90%;
+    }
+    .lead {
+        width: 50%;
+    }
+    .member {
+        width: 42%;
+        margin: 1.5%;
+    }
+}
+
+@media (max-width: 769px) {
+    .card {
+        width: 90%;
+    }
 }
